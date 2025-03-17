@@ -1,4 +1,4 @@
-# 1.Labs_CCNA_Basic_Configuration
+# 1.Basic_Configuration
  Vlan,Password, Hostname,Logging
  
  
