@@ -1,4 +1,4 @@
-# STP Switchport Mode 
+# Dynamic_Trunking_Protocol
 
 ##  General Rules for Switchport Mode Negotiation
  
