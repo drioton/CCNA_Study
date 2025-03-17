@@ -1,6 +1,6 @@
 **OSPF**
 
-![OSPF](images/OSPF.png)
+![OSPF](Images/OSPF.png)
 
 OSPF (Open Shortest Path First) – Description
 English:
