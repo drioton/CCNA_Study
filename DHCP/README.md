@@ -59,7 +59,7 @@ Der gesamte Drei-Wege-Handshake-Prozess sieht wie folgt aus:
 
 
 
-![DHCP_in_LAN](images/DHCP_in_LAN.png)
+![DHCP_in_LAN](Images/DHCP_in_LAN.png)
 
 
 **Router0**
@@ -79,7 +79,7 @@ exit
 255.255.255.0
 192.168.0.1
 ```
-![DHCP_PC0_static_IP](images/DHCP_PC0_static_IP.png)
+![DHCP_PC0_static_IP](Images/DHCP_PC0_static_IP.png)
 
 **PC1**
 ```
@@ -124,9 +124,9 @@ exit
 ip dhcp excluded-address 192.168.0.2 192.168.0.100
 exit
 ```
-![DHCP_PC0_requesting_IP](images/DHCP_PC0_requesting_IP.png)
+![DHCP_PC0_requesting_IP](Images/DHCP_PC0_requesting_IP.png)
 
-![DHCP_excluded-addresses](images/DHCP_excluded-addresses.png)
+![DHCP_excluded-addresses](Images/DHCP_excluded-addresses.png)
 
 
 **Test**
