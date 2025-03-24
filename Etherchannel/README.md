@@ -1,7 +1,7 @@
 # Etherchannel-LACP
  Create Etherchannel - LACP
  
-![Etherchannel](images/Etherchannel.png)
+![Etherchannel](Images/Etherchannel.png)
 
 ## EtherChannel Overview
 
@@ -32,7 +32,7 @@ Both sides must be Active-Active or Active-Passive to form a channel.
 **Static** (On mode) – No negotiation, directly creates an EtherChannel.  
 Both ends must be set to On, otherwise, no link is formed.  
 
-![Etherchannel_Table](images/Etherchannel_Table.png)
+![Etherchannel_Table](Images/Etherchannel_Table.png)
 
 # EtherChannel LACP Configuration Steps 
 
@@ -145,7 +145,7 @@ Group  Port-channel  Protocol    Ports
 
 # EtherChannel PAgP 
 
-![Etherchannel_PAgP](images/Etherchannel_PAgP.png)
+![Etherchannel_PAgP](Images/Etherchannel_PAgP.png)
 
 ### SW2
 
@@ -252,7 +252,7 @@ copy running-config startup-config
 ```
 
 
-![Etherchannel_komplet](images/Etherchannel_komplet.png)
+![Etherchannel_komplet](Images/Etherchannel_komplet.png)
 
 
 
