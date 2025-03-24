@@ -8,7 +8,6 @@
 EtherChannel is a link aggregation technology used in networking to combine multiple  
 physical links into a single logical link. This increases bandwidth, provides redundancy,   
 
-
 ## Key Features:
 
 **Increased Bandwidth** – Multiple links act as one, improving throughput.  
