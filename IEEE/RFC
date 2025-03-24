@@ -1,0 +1,14 @@
+| **Standard**    | **Description**                                                                 | **RFC** |
+|-----------------|---------------------------------------------------------------------------------|---------|
+| **IEEE 802.1Q** | VLAN Tagging Standard for Ethernet networks, allowing multiple VLANs over a single link. | RFC 2674 |
+| **IEEE 802.3**  | Ethernet standard for wired LANs. Covers physical layer specifications for Ethernet networks. | RFC 894 |
+| **IEEE 802.3u** | Fast Ethernet (100Base-TX) - Standard for 100 Mbps Ethernet. | RFC 2516 |
+| **IEEE 802.3ab**| Gigabit Ethernet over twisted-pair cables (1000Base-T). | RFC 2668 |
+| **IEEE 802.3ae**| 10 Gigabit Ethernet (10GBase-SR/LR) - Standard for high-speed Ethernet at 10Gbps. | RFC 3633 |
+| **IEEE 802.1D** | Spanning Tree Protocol (STP) standard for preventing loops in Ethernet networks. | RFC 1493 |
+| **IEEE 802.1w** | Rapid Spanning Tree Protocol (RSTP) - Improved version of STP for faster convergence. | RFC 4318 |
+| **IEEE 802.1s** | Multiple Spanning Tree Protocol (MSTP) - Allows multiple spanning tree instances. | RFC 6325 |
+| **IEEE 802.11** | Wireless LAN standards, defining technologies for wireless communication. | RFC 4186 |
+| **IEEE 802.1X** | Port-based Network Access Control (PNAC) standard for securing network access through authentication. | RFC 3580 |
+| **IEEE 802.1p** | Prioritization of Ethernet frames for Quality of Service (QoS) within a VLAN. | RFC 2474 |
+| **Private IP addressing** | Private IP address space reserved for internal use in networks. | RFC 1918 |
