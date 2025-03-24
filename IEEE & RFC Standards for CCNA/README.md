@@ -2,7 +2,7 @@
 
 ### Introduction
 This table provides a comprehensive list of IEEE standards and RFCs that are essential for the CCNA
-certification and networking in general.\
+certification and networking in general.
 
 
 ## English
