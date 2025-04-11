@@ -130,4 +130,3 @@ In **Split MAC architecture**, the AP can operate independently and handle tasks
 
 ---
 
-This covers everything you need to know about CAPWAP for CCNA. 🚀 If you have any additional questions, feel free to ask!
