@@ -1,4 +1,4 @@
-# CAPWAP Overview for CCNA
+# CAPWAP 
 
 ## **Control And Provisioning of Wireless Access Points (CAPWAP)**
 
@@ -101,6 +101,25 @@ Before CAPWAP, Cisco used **LWAPP (Lightweight Access Point Protocol)** to manag
 | Ports Used                 | 5246 (Control), 5247 (Data) | 12222 (Control), 12223 (Data) |
 
 In summary, CAPWAP is a more secure and flexible replacement for LWAPP, allowing support for modern wireless technologies while maintaining central management of access points.
+
+# Datagram Transport Layer Security (DTLS) and Split MAC
+
+## **Datagram Transport Layer Security (DTLS)**
+
+**DTLS (Datagram Transport Layer Security)** is a protocol designed to provide security for datagram-based applications. It is based on TLS (Transport Layer Security) but is specifically optimized for UDP (User Datagram Protocol), which does not guarantee reliable transmission. DTLS ensures data integrity, confidentiality, and authentication for applications that require low-latency communication, such as voice, video, and real-time data streaming.
+
+In the context of **CAPWAP**, DTLS is used to encrypt control messages exchanged between the Access Point (AP) and the Wireless LAN Controller (WLC), providing a secure channel for managing wireless devices. By using DTLS, CAPWAP ensures that the communication remains secure, even in an environment where UDP is used, making it suitable for large-scale networks.
+
+## **Split MAC**
+
+**Split MAC** is a design in wireless networks that divides the MAC (Media Access Control) functionality between the Access Point (AP) and the Wireless LAN Controller (WLC). This allows the controller to manage the control plane (e.g., authentication, association, and encryption) while the AP handles the data plane (e.g., sending and receiving actual data packets).
+
+In **Split MAC architecture**, the AP can operate independently and handle tasks like radio management, while the WLC handles the high-level control tasks such as client management and configuration. This design improves scalability and reduces the load on individual APs. It also simplifies network management by centralizing control in the WLC, while the APs remain responsible for data transmission.
+
+## **Summary**
+
+- **DTLS** provides encryption for control messages in CAPWAP, ensuring secure communication between APs and WLCs.
+- **Split MAC** separates control and data functions between the AP and WLC, enhancing scalability and efficiency in wireless network management.
 
 
 ## **Summary**
