@@ -183,7 +183,7 @@ periodic weekdays 09:00 to 17:00
 access-list 110 permit ip any any time-range work-hours
 This ACL permits IP traffic during business hours (9:00 AM to 5:00 PM on weekdays). 
 
-# 8. Notes & Best Practices
+# 9. Notes & Best Practices
 - ACLs are processed top-down; first match wins.
 - There's an implicit "deny all" at the end.
 ```
