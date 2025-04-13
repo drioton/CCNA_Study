@@ -196,3 +196,17 @@ access-list 110 permit ip any any           # Allow everything else
 - Use "remark" to label what each entry is doing.
 - Extended ACLs = more control; place near source.
 - Standard ACLs = simpler; place near destination.
+
+
+
+# 10. ACL Debug Checklist
+
+-  **Correct direction**? (inbound or outbound)
+-  **Correct IP address and wildcard mask**?
+-  **Extended vs. Standard ACL** – what exactly are you filtering?
+-  Is there a **`permit`** statement somewhere? If not, everything is denied by default!
+-  Check **hit count** with `show access-lists`
+-  Consider **reverse traffic** (e.g., ICMP echo-reply, HTTP responses)
+
+
+
