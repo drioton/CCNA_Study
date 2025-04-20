@@ -95,7 +95,7 @@ NetFlow is used for monitoring, security, and troubleshooting
 
 You must know basic config and purpose – not deep internals
 
- ## NetFlow Lab – Basic Setup (GitHub Format)
+ ## NetFlow Lab – Basic Setup 
 
 Capture and export flow data from a Cisco router to a NetFlow collector for traffic analysis.
 
