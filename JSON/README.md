@@ -173,10 +173,10 @@ YAML is another format like JSON but more human-readable. Used in configs like A
 ## 9. Summary of HTTP Methods with Cisco API
 | Method  | Description                                                        |
 |---------|--------------------------------------------------------------------|
-| GET     | Retrieve data from the server (e.g., get current device status).   |
-| POST    | Create a new resource (e.g., create a new user or device config).  |
-| PUT     | Update an existing resource (e.g., modify the configuration).      |
-| DELETE  | Remove a resource (e.g., delete a user or device setting).         |
+| GET     | Retrieve data from the server ( get current device status).   |
+| POST    | Create a new resource ( create a new user or device config).  |
+| PUT     | Update an existing resource ( modify the configuration).      |
+| DELETE  | Remove a resource ( delete a user or device setting).         |
 
 ## 10. Full REST API Example (Cisco)
 
