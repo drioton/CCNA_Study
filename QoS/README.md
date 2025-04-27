@@ -311,7 +311,7 @@ policy-map POLICE_VOICE
 3. Apply Service Policy to Interface (Activation) After creating class-maps and policy-maps, you must apply the
    service-policy to an interface.
 
-Example: Apply outbound QoS to an interface. `interface GigabitEthernet0/1  service-policy output QOS_POLICY ` Example:
+Example:
 Apply inbound policing to an interface.
 
 ```
