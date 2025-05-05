@@ -13,7 +13,7 @@ If the real gateway fails, another router takes over seamlessly.
 | Vendor           | Cisco only                  | Open standard (RFC 5798)      | Cisco only                      |
 | Virtual IP       | Configured manually         | Usually highest real IP       | Configured manually             |
 | Virtual MAC      | 0000.0C07.ACxx (v1)         | 0000.5E00.01xx                | 0007.b4xx.xxxx                   |
-| Load Balancing   | ❌ No                       | ❌ No                         | ✅ Yes                           |
+| Load Balancing   |    No                       | No                            |  Yes                           |
 | Preemption       | Manual (`preempt`)          | Enabled by default            | Enabled by default              |
 | Election         | Priority > Highest IP       | Priority > Highest IP         | Priority > Highest IP (AVG)     |
 | Timers (default) | Hello 3s / Hold 10s         | Advertisement 1s / Master Down 3s | Hello 3s / Hold 10s        |
