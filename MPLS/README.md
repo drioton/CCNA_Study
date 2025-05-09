@@ -168,7 +168,7 @@ ip local pool VPNPOOL 10.10.10.10 10.10.10.50
 
 ```
 
-
+ ![Diagram](Diagram.png)
 
 
 
